@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Player2",
-    "path":"sprites/Player2/Player2.yy",
+    "name":"Square2",
+    "path":"sprites/Square2/Square2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

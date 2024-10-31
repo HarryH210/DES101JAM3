@@ -17,7 +17,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Object2","order":1,"path":"objects/Object2/Object2.yy",},
-    {"name":"Player2","order":1,"path":"sprites/Player2/Player2.yy",},
-    {"name":"Sprite2","order":15,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"GameBoard","order":15,"path":"sprites/GameBoard/GameBoard.yy",},
+    {"name":"Square2","order":1,"path":"sprites/Square2/Square2.yy",},
   ],
 }
