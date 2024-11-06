@@ -2,7 +2,6 @@
 /// @DnDVersion : 1
 /// @DnDHash : 0E9E907A
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "22"
+/// @DnDArgument : "y" "115"
 /// @DnDArgument : "y_relative" "1"
-
-y += 22;
+y += 115;
