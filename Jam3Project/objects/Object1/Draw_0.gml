@@ -1,14 +1,14 @@
 /// @DnDAction : YoYo Games.Drawing.Draw_Self
 /// @DnDVersion : 1
-/// @DnDHash : 2132C3FE
+/// @DnDHash : 1FAD63DC
 draw_self();
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 2737897B
-/// @DnDArgument : "var" "global.P2Health"
+/// @DnDArgument : "var" "HPPlayer1"
 /// @DnDArgument : "value" "100"
-if(global.P2Health == 100)
+if(HPPlayer1 == 100)
 {
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDVersion : 1
@@ -17,17 +17,17 @@ if(global.P2Health == 100)
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "-20"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "sprite" "Player2Health100"
-	/// @DnDSaveInfo : "sprite" "Player2Health100"
-	draw_sprite(Player2Health100, 0, x + 0, y + -20);
+	/// @DnDArgument : "sprite" "Player1Health100"
+	/// @DnDSaveInfo : "sprite" "Player1Health100"
+	draw_sprite(Player1Health100, 0, x + 0, y + -20);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7E37065B
-/// @DnDArgument : "var" "global.P2Health"
+/// @DnDArgument : "var" "HPPlayer1"
 /// @DnDArgument : "value" "80"
-if(global.P2Health == 80)
+if(HPPlayer1 == 80)
 {
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDVersion : 1
@@ -36,17 +36,17 @@ if(global.P2Health == 80)
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "-20"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "sprite" "Player2Health80"
-	/// @DnDSaveInfo : "sprite" "Player2Health80"
-	draw_sprite(Player2Health80, 0, x + 0, y + -20);
+	/// @DnDArgument : "sprite" "Player1Health80"
+	/// @DnDSaveInfo : "sprite" "Player1Health80"
+	draw_sprite(Player1Health80, 0, x + 0, y + -20);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 42B65588
-/// @DnDArgument : "var" "global.P2Health"
+/// @DnDArgument : "var" "HPPlayer1"
 /// @DnDArgument : "value" "60"
-if(global.P2Health == 60)
+if(HPPlayer1 == 60)
 {
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDVersion : 1
@@ -55,17 +55,17 @@ if(global.P2Health == 60)
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "-20"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "sprite" "Player2Health60"
-	/// @DnDSaveInfo : "sprite" "Player2Health60"
-	draw_sprite(Player2Health60, 0, x + 0, y + -20);
+	/// @DnDArgument : "sprite" "Player1Health60"
+	/// @DnDSaveInfo : "sprite" "Player1Health60"
+	draw_sprite(Player1Health60, 0, x + 0, y + -20);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5748B6F6
-/// @DnDArgument : "var" "global.P2Health"
+/// @DnDArgument : "var" "HPPlayer1"
 /// @DnDArgument : "value" "40"
-if(global.P2Health == 40)
+if(HPPlayer1 == 40)
 {
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDVersion : 1
@@ -74,17 +74,17 @@ if(global.P2Health == 40)
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "-20"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "sprite" "Player2Health40"
-	/// @DnDSaveInfo : "sprite" "Player2Health40"
-	draw_sprite(Player2Health40, 0, x + 0, y + -20);
+	/// @DnDArgument : "sprite" "Player1Health40"
+	/// @DnDSaveInfo : "sprite" "Player1Health40"
+	draw_sprite(Player1Health40, 0, x + 0, y + -20);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4C02D12F
-/// @DnDArgument : "var" "global.P2Health"
+/// @DnDArgument : "var" "HPPlayer1"
 /// @DnDArgument : "value" "20"
-if(global.P2Health == 20)
+if(HPPlayer1 == 20)
 {
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDVersion : 1
@@ -93,16 +93,16 @@ if(global.P2Health == 20)
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "-20"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "sprite" "Player2Health20"
-	/// @DnDSaveInfo : "sprite" "Player2Health20"
-	draw_sprite(Player2Health20, 0, x + 0, y + -20);
+	/// @DnDArgument : "sprite" "Player1Health20"
+	/// @DnDSaveInfo : "sprite" "Player1Health20"
+	draw_sprite(Player1Health20, 0, x + 0, y + -20);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 69AB2D1E
-/// @DnDArgument : "var" "global.P2Health"
-if(global.P2Health == 0)
+/// @DnDArgument : "var" "HPPlayer1"
+if(HPPlayer1 == 0)
 {
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDVersion : 1
@@ -111,7 +111,7 @@ if(global.P2Health == 0)
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "-20"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "sprite" "Player2Health0"
-	/// @DnDSaveInfo : "sprite" "Player2Health0"
-	draw_sprite(Player2Health0, 0, x + 0, y + -20);
+	/// @DnDArgument : "sprite" "Player1Health0"
+	/// @DnDSaveInfo : "sprite" "Player1Health0"
+	draw_sprite(Player1Health0, 0, x + 0, y + -20);
 }
