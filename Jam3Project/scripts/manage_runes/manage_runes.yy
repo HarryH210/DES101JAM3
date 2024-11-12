@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"manage_runes",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"manage_runes",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

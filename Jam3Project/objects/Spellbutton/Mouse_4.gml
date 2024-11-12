@@ -1,0 +1,1 @@
+global.spellMenu.visible = !global.spellMenu.visible
